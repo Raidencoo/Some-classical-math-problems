@@ -15,7 +15,7 @@ public class Question2 {
         boolean flag = true;
         for(int i=a;i<=b;i++){
             flag=true;
-            for(int j=2;j<=b;j++){
+            for(int j=2;j<=Math.sqrt(b);j++){
                 if(i!=j && i%j==0){
                     flag =false;
                     break;
