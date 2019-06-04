@@ -18,18 +18,15 @@
   public static void main(String[] args){
       //移动次数
       System.out.println(hanoi(10));
-    
-  
-  
-  
-  
   
   } 
   public static int hanoi(int n){
+    //递归退出条件：n==1时
     if(n==1){
         return 1;
     }else{
-        return 2*hanoi(n-1)+1
+        //返回2a(n-1)+1
+        return 2*hanoi(n-1)+1;
       
       }
   }
