@@ -1,7 +1,5 @@
-# Some-classical-math-problems
-How to solute some math problems with code
-Thanks for github!!!
+# Java算法小问题
+用代码解决一些数学经典问题
 ------
-### Thanks for everyone who show her/his code!!!
 
-###### I'm trying to learn something intersting!! 
+
